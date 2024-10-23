@@ -1,6 +1,6 @@
 # NodeJS-Backend-Sample
 
-TypeScript NodeJS Backend Sample for GameProject 2.
+TypeScript NodeJS Backend Sample for Arcane Horizon.
 
 ## Quick Start
 
