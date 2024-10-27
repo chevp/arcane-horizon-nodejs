@@ -18,6 +18,7 @@
   },
   "dependencies": {
     "express": "^4.16.4",
-    "express-http-proxy": "^1.6.2"
+    "express-http-proxy": "^1.6.2",
+    "ts-node-gateway": "file:"
   }
 }
