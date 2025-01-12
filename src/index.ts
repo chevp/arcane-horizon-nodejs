@@ -29,13 +29,17 @@ app.get('/register', (req, res) => {
     res.send({ error: false, status: 200, 
         message: 'service name='+req.query.name+ ' port='+req.query.port+' succefully registred!'});
 });
+
 app.get('/services', (req, res) => {
     res.send(services);
 });
 
 app.get('/service-list.html', (req, res) => res.sendFile('service-list.html', {root: __dirname }));
+
 app.get('/style.css', (req, res) => res.sendFile('style.css', {root: __dirname }));
+
 app.get('/font-awesome-4.3.0/css/font-awesome.min.css', (req, res) => res.sendFile('/font-awesome-4.3.0/css/font-awesome.min.css', {root: __dirname }));
+
 app.get('/font-awesome-4.3.0/fonts/fontawesome-webfont.woff2', (req, res) => res.sendFile('/font-awesome-4.3.0/fonts/fontawesome-webfont.woff2', {root: __dirname }));
 
 app.get('*', (req, res) => {
