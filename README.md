@@ -19,8 +19,8 @@ This project is the backend server for the Arcane Horizon system, built using **
 ### 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/arcane-horizon-nodejs-backend.git
-cd arcane-horizon-nodejs-backend
+git clone https://github.com/chevp/arcane-horizon-nodejs.git
+cd arcane-horizon-nodejs
 ```
 
 ### 2. Install dependencies:
